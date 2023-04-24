@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page | CAT HOUSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- NAV -->
     <nav class="navigation">
       <div class="container">
-        <div>
-          <div class="logo"></div>
-          <div class="title"><a href="#">Котодім</a></div>
-        </div>
-        <div>
-          <div class="menu">
-            <ul class="menu-block">
-              <li class="menu-item"><a href="">Обрати котика</a></li>
-              <li class="menu-item"><a href="">Задонатити котикам</a></li>
-              <li class="menu-item"><a href="">Контакти</a></li>
-            </ul>
+        <div class="navigation-flex">
+          <div class="logo">
+            <img class="logo-image" src="./images/cat-logo.svg" alt="" />
+            <a class="logo-text" href="#">Котодім</a>
+          </div>
+          <div>
+            <div class="menu">
+              <ul class="menu-block">
+                <li class="menu-item"><a href="">Обрати котика</a></li>
+                <li class="menu-item"><a href="">Задонатити котикам</a></li>
+                <li class="menu-item"><a href="">Контакти</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -30,29 +40,82 @@
     <!-- HEADER -->
     <header class="header">
       <div class="container">
-        
+        <div class="header-block">
+          <div class="header-text">
+            <h1 class="header-text-title">Привіт, людино</h1>
+            <p class="header-text-quote">
+              Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й
+              веселого розгардіяшу?
+            </p>
+            <p class="header-text-quote">Візьми собі котика.</p>
+          </div>
+        </div>
       </div>
     </header>
     <!-- HEADER -->
 
     <!-- MAIN -->
-    <section class="main">
-      <div class="container"></div>
-    </section>
+    <main class="main">
+      <div class="container">
+        <section class="friends-block">
+          <h2 class="friends-block-title">Ці друзяки готові приймати твою любов і піклування</h2>
+          <ul class="friends-list">
+            <li>
+              <img src="./images/friends1.jpg" alt="Фото кута Барбариса" width="288" height="360" />
+              <h3>Барбарис</h3>
+              <p>Хижий для ворогів, ласкавий та м’якесенький до своїх.</p>
+            </li>
+            <li>
+              <img src="./images/friends2.jpg" alt="Фото кута Мишка" width="288" height="360" />
+              <h3>Мишка</h3>
+              <p>Киця з роду котів-талісманів. Несе удачу та затишок в дім.</p>
+            </li>
+            <li>
+              <img src="./images/friends3.jpg" alt="Фото кута Капітана" width="288" height="360" />
+              <h3>Капітан</h3>
+              <p>Всюди головний. Підкорить тебе, але ти будеш щасливий./p></p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="family">
+          <h2>Котики, які вже знайшли сім’ю</h2>
+          <p>Ти тільки поглянь, скільки ніжності! На місці цих задоволених людей можеш бути ти.</p>
+          <ul class="family-item">
+            <li><img src="./images/family1.jpg" alt="cat1" width="144" height="184" /></li>
+            <li><img src="./images/family2.jpg" alt="cat2" width="144" height="184" /></li>
+            <li><img src="./images/family3.jpg" alt="cat3" width="144" height="184" /></li>
+            <li><img src="./images/family4.jpg" alt="cat4" width="144" height="184" /></li>
+            <li><img src="./images/family5.jpg" alt="cat5" width="144" height="184" /></li>
+            <li><img src="./images/family6.jpg" alt="cat6" width="144" height="184" /></li>
+            <li><img src="./images/family7.jpg" alt="cat7" width="144" height="184" /></li>
+            <li><img src="./images/family8.jpg" alt="cat8" width="144" height="184" /></li>
+            <li><img src="./images/family9.jpg" alt="cat9" width="144" height="184" /></li>
+            <li><img src="./images/family10.jpg" alt="cat10" width="144" height="184" /></li>
+            <li><img src="./images/family11.jpg" alt="cat11" width="144" height="184" /></li>
+            <li><img src="./images/family12.jpg" alt="cat12" width="144" height="184" /></li>
+          </ul>
+        </section>
+      </div>
+    </main>
     <!-- MAIN -->
 
     <!-- FOOTER -->
-      <footer class="footer">
-        <div class="container">
-          <div class="footer-text"></div>
-          <div class="footer-socials"></div>
-        </div>
-      </footer>
+    <footer class="footer">
+      <div class="footer-text">
+        <div class="logo"></div>
+        <div class="footer-text-cat">Котики — то щастя. Забирай, люби й ставай щасливішим.</div>
+      </div>
+      <div class="footer-socials">
+        <h5 class="footer-socials-title">Соцмережі</h5>
+        <ul class="footer-socials-logos">
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+        </ul>
+      </div>
+    </footer>
     <!-- FOOTER -->
-    <style>
-      .container {
-        max-width: 944px;
-      }
-    </style>
   </body>
 </html>
