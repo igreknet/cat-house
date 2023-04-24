@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-block {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: #f07f2e;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 8px;
+}
+
+.menu-item {
+  margin: 0 20px 0 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-block {
+  background-image: url(/images/header.jpg);
+  height: 480px;
+  border-radius: 20px;
+}
+
+.header-text {
+  position: absolute;
+  top: 296px;
+  left: 236px;
+  width: 432px;
+  height: 192px;
+  background-color: #0f3f3c;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-text-title {
+  color: white;
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.header-text-quote {
+  color: white;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.friends-list {
+  display: inline-block;
+}
