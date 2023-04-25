@@ -25,7 +25,9 @@ a {
   text-decoration: none;
 }
 
-.navigation-flex {
+/* NAV STYLES */
+
+.navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,11 +36,16 @@ a {
 
 .menu-block {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 2px;
+  gap: 8px;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  padding-left: 16px;
 }
 
 .logo-text {
@@ -56,27 +63,30 @@ a {
   line-height: 24px;
 }
 
-.header-block {
+/* NAV STYLES */
+
+/* HEADER STYLES */
+
+.header {
   background-image: url(/images/header.jpg);
+  background: no-repeat center cover;
   height: 480px;
-  border-radius: 20px;
+  border-radius: 16px;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 .header-text {
   position: absolute;
-  top: 296px;
-  left: 236px;
+  left: 28px;
+  bottom: 52px;
   width: 432px;
-  height: 192px;
   background-color: #0f3f3c;
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
-.header-text-title {
+.header h1 {
   color: white;
   margin: 0 0 8px 0;
   font-weight: 700;
@@ -84,14 +94,47 @@ a {
   line-height: 32px;
 }
 
-.header-text-quote {
+.header p {
   color: white;
-  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
+/* HEADER STYLES */
+
+/* MAIN STYLES */
+
 .friends-list {
-  display: inline-block;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 40px 0 60px 0px;
 }
+
+.friends-list li img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.family {
+  margin-bottom: 60px;
+}
+
+.family-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 16px;
+}
+
+.family-list li img {
+  border-radius: 16px;
+}
+
+/* MAIN STYLES */
+
+/* FOOTER */
+.footer {
+  background-color: #0f3f3c;
+}
+/* FOOTER */
