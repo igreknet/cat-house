@@ -136,5 +136,24 @@ a {
 /* FOOTER */
 .footer {
   background-color: #0f3f3c;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.footer-links svg {
+  width: 16px;
+  height: 16px;
 }
 /* FOOTER */
