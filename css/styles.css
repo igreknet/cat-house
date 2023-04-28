@@ -68,7 +68,7 @@ a {
 /* HEADER STYLES */
 
 .header {
-  background-image: url(/images/header.jpg);
+  background-image: url(../images/header.jpg);
   background: no-repeat center cover;
   height: 480px;
   border-radius: 16px;
